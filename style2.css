@@ -1,0 +1,67 @@
+body {background-color:whitesmoke;}
+
+.img {
+  display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+}
+
+#pictures {
+  text-align:center;
+}
+
+.rotate90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.title {
+    color:grey;
+    text-align:center;
+    font-size: 40px;
+  }
+  #index {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  #greetingbutton {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #byme {
+      text-align:center
+  }
+
+  .uppercase {
+    text-transform:uppercase;
+  }
+
+  #first-paragraph {
+
+  }
+
+  .primarysection {
+      font-family:cursive;
+      text-transform:uppercase;
+      text-align:center;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+ }
+
+ table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+#dadbloglinks {
+  text-align:center;
+}
